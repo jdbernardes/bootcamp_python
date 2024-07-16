@@ -101,4 +101,20 @@ exercicio2_19
 # %%
 from Exercicios_Aula_Dois import exercicio2_20
 exercicio2_20
+
+# %%
+from Exercicios_Aula_Tres import exercicio3_1
+exercicio3_1
+
+# %%
+from Exercicios_Aula_Tres import exercicio3_2
+exercicio3_2
+
+# %%
+from Exercicios_Aula_Tres import exercicio3_3
+exercicio3_3
+
+# %%
+from Exercicios_Aula_Tres import exercicio3_4
+exercicio3_4
 # %%
