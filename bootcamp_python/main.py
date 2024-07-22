@@ -103,6 +103,23 @@ from Exercicios_Aula_Dois import exercicio2_20
 exercicio2_20
 
 # %%
+from Exercicios_Aula_Tres import exercicio3_1
+exercicio3_1
+
+# %%
+from Exercicios_Aula_Tres import exercicio3_2
+exercicio3_2
+
+# %%
+from Exercicios_Aula_Tres import exercicio3_3
+exercicio3_3
+
+# %%
+from Exercicios_Aula_Tres import exercicio3_4
+exercicio3_4
+
+# %%
+
 from Exercicios_Aula_Seis.Exercicio6_1 import calcula_media
 values = [1,3,5,7,9]
 media = calcula_media(values)
@@ -133,4 +150,5 @@ print(calcular_desvio_padrao(values))
 from Exercicios_Aula_Seis.Exercicio6_6 import encontrar_valores_ausentes
 values = [1,3,4,5,6]
 print(encontrar_valores_ausentes(values))
+
 # %%
