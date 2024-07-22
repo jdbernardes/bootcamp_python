@@ -30,7 +30,7 @@ exercicio2_1
 from Exercicios_Aula_Dois import exercicio2_2
 exercicio2_2
 
-# %%
+6# %%
 from Exercicios_Aula_Dois import exercicio2_3
 exercicio2_3
 
@@ -101,4 +101,36 @@ exercicio2_19
 # %%
 from Exercicios_Aula_Dois import exercicio2_20
 exercicio2_20
+
+# %%
+from Exercicios_Aula_Seis.Exercicio6_1 import calcula_media
+values = [1,3,5,7,9]
+media = calcula_media(values)
+print(media)
+
+# %%
+from Exercicios_Aula_Seis.Exercicio6_2 import filtra_dados
+values = [10, 15, 25, 42]
+limite = 42
+print(filtra_dados(values, limite))
+
+# %%
+from Exercicios_Aula_Seis.Exercicio6_3 import contar_valores_unicos
+values = [1,1,2,3,3,5,5]
+print(contar_valores_unicos(values))
+
+# %%
+from Exercicios_Aula_Seis.Exercicio6_4 import converte_fahrenheit
+values = [5,0,25,30]
+print(converte_fahrenheit(values))
+
+# %%
+from Exercicios_Aula_Seis.Exercicio6_5 import calcular_desvio_padrao
+values = [1,1,2,3,5,8,12]
+print(calcular_desvio_padrao(values))
+
+# %%
+from Exercicios_Aula_Seis.Exercicio6_6 import encontrar_valores_ausentes
+values = [1,3,4,5,6]
+print(encontrar_valores_ausentes(values))
 # %%
