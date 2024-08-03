@@ -1,13 +1,16 @@
 import psycopg2
+import os
+from dotenv import load_dotenv
 
 
 
 def connect():
-    DB_NAME = "postgres"
-    DB_USER = "postgres"
-    DB_PASS = "Postgres2024!"
-    DB_HOST = "localhost"
-    DB_PORT = 15432
+    load_dotenv()
+    DB_NAME = os.environ['DB_NAME']
+    DB_USER = os.environ['DB_USER']
+    DB_PASS = os.environ['DB_PASS']
+    DB_HOST = os.environ['DB_HOST']
+    DB_PORT = os.environ['DB_PORT']
     try:
         conn = psycopg2.connect(dbname=DB_NAME, user= DB_USER, host=DB_HOST, password=DB_PASS, port = DB_PORT)
         return conn
@@ -54,7 +57,7 @@ if __name__ == '__main__':
     sql_update = "UPDATE users SET name = 'Júlio' WHERE id = 11"
     #insert_simple(sql_insert)
     #delete(sql_delete)
-    update(sql_update)
+    #update(sql_update)
     data = query(sql)
     for user in data:
         print(f'ID: {user[0]}, Name: {user[1]}, Last Name {user[2]}, Age: {user[-1]}')
